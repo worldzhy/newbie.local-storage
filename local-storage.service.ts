@@ -8,7 +8,7 @@ import {PrismaService} from '@framework/prisma/prisma.service';
  * Folders are files that only contain metadata and can be used to organize files in Drive.
  */
 @Injectable()
-export class LocalDriveService {
+export class LocalStorageService {
   constructor(private readonly prisma: PrismaService) {}
 
   async createFolder(params: {name: string; parentId?: string}) {
