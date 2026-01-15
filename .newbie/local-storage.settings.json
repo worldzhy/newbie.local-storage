@@ -10,9 +10,9 @@
     "STORAGE_LOCAL_PATH": ""
   },
   "dependencies": {
-    "multer": "^1.4.5-lts.1"
+    "multer": "latest"
   },
   "devDependencies": {
-    "@types/multer": "^1.4.11"
+    "@types/multer": "latest"
   }
 }
